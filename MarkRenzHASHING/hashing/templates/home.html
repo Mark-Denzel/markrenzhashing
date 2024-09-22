@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkClarence5 Hashing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0c1224;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #999999;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(190, 186, 186, 0.6);
+            width: 500px;
+            text-align: center;
+            font-size: 100%;
+            color: #202020;
+        }
+        .tab {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 90%;
+            height: 100px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #444343;
+            font-size: 16px;
+            background-color: #e0e0e0;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            background-color: #a3a3f0;
+            border: none;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #8282bd;
+        }
+        button:disabled {
+            background-color: #252424;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="tab">
+        <h1>MarkRenz Hashing</h1>
+    </div>
+
+    <textarea id="inputText" placeholder="Text"></textarea>
+    <textarea id="outputText" placeholder="MD5 Hash" readonly></textarea>
+
+    <div class="buttons">
+        <button id="encryptBtn">Encrypt</button>
+        <button id="resetBtn">Reset</button>
+        <button id="copyBtn">Copy</button>
+    </div>
+</div>
+
+<script>
+    const inputText = document.getElementById('inputText');
+    const outputText = document.getElementById('outputText');
+    const encryptBtn = document.getElementById('encryptBtn');
+    const resetBtn = document.getElementById('resetBtn');
+    const copyBtn = document.getElementById('copyBtn');
+
+    encryptBtn.addEventListener('click', () => {
+        const message = inputText.value;
+        fetch('/hashing/hash/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: message }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.hash) {
+                outputText.value = data.hash;
+            } else {
+                outputText.value = 'Error hashing message';
+            }
+        })
+        .catch(error => {
+            outputText.value = 'Error: ' + error;
+        });
+    });
+
+
+    resetBtn.addEventListener('click', () => {
+        inputText.value = '';
+        outputText.value = '';
+    });
+
+    copyBtn.addEventListener('click', () => {
+        outputText.select();
+        document.execCommand('copy');
+    });
+</script>
+
+</body>
+</html>
