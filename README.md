@@ -1,2 +1,7 @@
 # markrenzhashing
 MD5 HASHING ALGORITHM
+
+
+"""
+MAMAYA KO UPLOAD AYUSING KO LANG URL
+"""
