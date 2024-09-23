@@ -88,5 +88,5 @@
 
 ## Maintenance Log
 * **Date:** 09/23/2024
-* **Changes:** We modify the text area of input and output, we make it fixed so it does not overlap the . textarea {resize:none;}.
+* **Changes:** We modified the input and output text areas to be fixed, preventing them from overlapping the container. To achieve this, we set textarea {resize: none;}
 * **Author:** Clarence Benedict De Leon
