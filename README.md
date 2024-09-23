@@ -30,6 +30,10 @@
 <br>
 
 ## Functional Description
+* **Input:** You use the textbox to input a unique word, it does not have a limit on how long the input is. For example you can put in an entire  email in the textbox eg: Thisisanemail@emaildomain.com.
+* **Processing:** The program will go through a mathematical hashing algorithm. It converts the data into a unique hexadecimal hash string. Once it has been outputted into its unique line of string it cannot be processed back into a the original string.
+* **Output:** The data is then turned into a string of hexadecimal hash eg: a1d61919bb9a68b1ad6cde6c50524481. It is an example of an output of the process. As you can see it is unreadable to the human eye. This series of hash CANNOT be reverted back into its original message
+
 
 <br>
 
