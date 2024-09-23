@@ -60,4 +60,5 @@
 * Django version 5.1.1
 
 **Execution**
-
+* To execute the program, first double-click the *run.bat* file included in the *.zip folder.*
+* After the batch file has executed, you will see a URL or HTTP link. Then, use Ctrl + Right Click to open the link. --> ![link]("C:\Users\permi\Downloads\link.png")
