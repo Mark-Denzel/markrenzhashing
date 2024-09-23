@@ -75,6 +75,6 @@
 <br>
 
 ## Maintenance Log
-* **Date:**
-* **Changes:**
+* **Date:** MM/DD/YYYY
+* **Changes:** No maintenance performed.
 * **Author:**
