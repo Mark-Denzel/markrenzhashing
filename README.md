@@ -40,6 +40,8 @@
 
 ## Security Considerations
 **Vulnerability Assessment:**
+
 **Mitigation Strategies:**
+
 **Testing:**
 
