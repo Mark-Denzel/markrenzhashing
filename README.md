@@ -61,4 +61,6 @@
 
 **Execution**
 * To execute the program, first double-click the *run.bat* file included in the *.zip folder.*
-* After the batch file has executed, you will see a URL or HTTP link. Then, use Ctrl + Right Click to open the link. --> ![link]("C:\Users\permi\Downloads\link.png")
+* After the batch file has executed, you will see a URL or HTTP link. Then, use Ctrl + Right Click to open the link. --> [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+* To stop the server just  Ctrl + C
+* Note: Before clicking the link, ensure that the server is running; otherwise, you will see the error message "This site can’t be reached."
