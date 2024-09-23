@@ -76,9 +76,12 @@
 + **Error 1:** When you *run.bat* file and it doesn't response/automatically close or you manually try to open the server using CMD: <img width="300" alt="image" src="https://github.com/user-attachments/assets/5df36cc5-1271-42ad-a888-6c78eb950f3c">
 + You will encounter this error: ![image](https://github.com/user-attachments/assets/d1f98a45-22cc-44d7-87cd-a9e69dd882b4)
 
-     * Solution: Just type "pip install django" in CMD. Then try to open the *run.bat* file, if there is a windows security warning
+     * Solution: Just type "pip install django" in CMD. Then try to open the *run.bat* file, if there is a windows security warning, click *more info* and *run annyway*.
  
-+ **Error 2:** When you click/go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) and this error shows up: "This site can’t be reached. 127.0.0.1 refused to connect."
++ **Error 2:** When you click/go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) and this error shows up:
+
+  <img width="431" alt="image" src="https://github.com/user-attachments/assets/424a6e84-7adb-409f-ad56-25336af5afed">
+
      * Solution: Go to the markrenzhashing-main folder that you recently downloaded, find the run.bat file, and double-click it to open the server.
 
 <br>
