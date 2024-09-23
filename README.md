@@ -87,6 +87,6 @@
 <br>
 
 ## Maintenance Log
-* **Date:** MM/DD/YYYY
-* **Changes:** No maintenance performed.
-* **Author:**
+* **Date:** 09/23/2024
+* **Changes:** textarea {resize:none;}.
+* **Author:** Clarence Benedict De Leon
