@@ -55,3 +55,8 @@
 * **Step 4:** Make sure your Django is updated with the version 5.1.1. To check this, open Command Prompt and copy paste this --> python -m django --version
 
 **Configurations:**
+* The Python version is at least --> Python 3.11.2
+* Django version 5.1.1
+
+**Execution**
+
