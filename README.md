@@ -72,9 +72,11 @@
 <br>
 
 ## Error Handling
-**Error Codes:**
+**Error Codes & Recovery Procedures:**
+* **Error 1:**
+      * **Solution:**
 
-**Recovery Procedures:**
+
 
 <br>
 
