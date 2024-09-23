@@ -1,50 +1,45 @@
 # Permison-De Leon_MD5 HASHING ALGORITHM
 
+### Program Name: MarkRenz*MD5 Hashing*
 
-**Header Information**
-  Program Name: MarkRenzMD5 Hasing
-  Author: Mark Denzel J. Permison & Clarence Benedict De Leon
-  Date: 09/22/2024 - MM/DD/YYYY
-  Version: 1.0
-  Purpose: It generates a fixed-length, 128-bit hash value from the user input message.
+**Author:** Mark Denzel J. Permison & Clarence Benedict De Leon
 
-**System Requirements**
-  Hardware(Minimum): 
-    CPU: Intel PENTUIM, ARM Cortex-M7, or at least 300 MHz
-    RAM: 2GB 
-    Storage: at least 100 mb.
+**Date:** 09/22/2024
+
+**Version:** 1.0
+
+**Purpose:** Generates a fixed-length, 128-bit *hash* value from the user input message.
+
+<br>
+<br>
+
+## System Requirements
+**Hardware(Minimum):**
+
+* **CPU:** Intel PENTIUM or AMD Ryzen 3
   
-  Software:
-    Operating System: Windows & Linux
-    Browser: Any type.
-    Python version: Python 3.11.2
-    Libraries: Django
-
-
-**Functional Description**
-  Input:
-    Type: String.
-    Data Format: Text Input.
-    Source: A text string provided by the user in an input field.
-    
-  Processing: A step-by-step explanation of the program's logic.
-  Output: Generated data, formats, and destinations.
-
-**Security Considerations**
-  Vulnerability Assessment: Identification of potential security risks.
-  Mitigation Strategies: Measures to address identified vulnerabilities.
-  Testing: Procedures for verifying security measures.
+* **Ram:** At least 2GB
   
-**Usage Instructions**
-  Installation: Steps to set up the program environment.
-  Configuration: Required settings or parameters.
-  Execution: Commands or scripts to run the program.
+* **Storage:** At least 100 MB
 
-**Error Handling**
-  Error Codes: A list of possible errors and their meanings.
-  Recovery Procedures: Actions to take in case of errors.
+
+### Software:
+* **Operating system:** Windows & Linux
   
-**Maintenance Log**
-  Date: Date of changes.
-  Changes: Description of modifications.
-  Author: Person responsible for the changes.
+* **Browser:** Google, Microsoft Edge, Firefox, Brave, etc...
+  
+* **Python Version:** Python 3.11.2
+
+* **Libraries:** *Django & Hashlib*
+
+<br>
+
+## Functional Description
+
+<br>
+
+## Security Considerations
+**Vulnerability Assessment:**
+**Mitigation Strategies:**
+**Testing:**
+
