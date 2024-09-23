@@ -41,7 +41,12 @@
 ## Security Considerations
 **Vulnerability Assessment:**
 
+* MD5 is considered weak and susceptible to collision attacks. It should not be used for secure hashing of sensitive data like passwords.
+* MD5 is fast, which makes it easier for attackers to perform brute-force attacks.
+
 **Mitigation Strategies:**
+* Since MD5 is not suitable for hashing sensitive information (e.g., passwords), switch to more secure hashing algorithms like SHA-256 or bcrypt.
+* You may also put a unique salt for each password to ensure that identical passwords do not result in the same hash.
 
 **Testing:**
 
