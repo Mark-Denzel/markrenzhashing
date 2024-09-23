@@ -88,5 +88,5 @@
 
 ## Maintenance Log
 * **Date:** 09/23/2024
-* **Changes:** textarea {resize:none;}.
+* **Changes:** We modify the text area of input and output, we make it fixed so it does not overlap the . textarea {resize:none;}.
 * **Author:** Clarence Benedict De Leon
