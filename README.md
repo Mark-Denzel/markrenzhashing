@@ -16,20 +16,15 @@
 ## System Requirements
 **Hardware(Minimum):**
 
-* **CPU:** Intel PENTIUM or AMD Ryzen 3
-  
-* **Ram:** At least 2GB
-  
+* **CPU:** Intel PENTIUM or AMD Ryzen 3  
+* **Ram:** At least 2GB  
 * **Storage:** At least 100 MB
 
 
 ### Software:
-* **Operating system:** Windows & Linux
-  
-* **Browser:** Google, Microsoft Edge, Firefox, Brave, etc...
-  
+* **Operating system:** Windows & Linux  
+* **Browser:** Google, Microsoft Edge, Firefox, Brave, etc... 
 * **Python Version:** Python 3.11.2
-
 * **Libraries:** *Django & Hashlib*
 
 <br>
@@ -50,3 +45,7 @@
 
 **Testing:**
 
+<br>
+
+## Usage Instructions
+**Installations:**
