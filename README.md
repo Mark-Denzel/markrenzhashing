@@ -77,7 +77,7 @@
      * Solution: 
  
 + **Error 2:** If you click/go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) and this error shows up "This site can’t be reached 127.0.0.1 refused to connect".
-     * Solution: Go to 
+     * Solution: Go to markrenzhashing-main folder that you just recently downloaded and find the run.bat file and *Double-click* it to open the server.
 
 <br>
 
