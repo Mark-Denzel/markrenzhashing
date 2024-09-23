@@ -49,3 +49,4 @@
 
 ## Usage Instructions
 **Installations:**
+* **Step 1:** [Download this folder](https://github.com/Mark-Denzel/markrenzhashing/archive/refs/heads/main.zip)
