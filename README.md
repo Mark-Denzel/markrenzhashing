@@ -71,7 +71,7 @@
 
 <br>
 
-## Usage Instructions
+## Error Handling
 **Error Codes:**
 
 **Recovery Procedures:**
