@@ -51,6 +51,7 @@
 **Installations:**
 * **Step 1:** Download and install Python from the official website: [python.org](https://www.python.org/)
 * **Step 2:** [Download this folder](https://github.com/Mark-Denzel/markrenzhashing/archive/refs/heads/main.zip)
+* **Step 3:** move the 
 * **Step 3:** If you don't have Django, open Command Prompt and copy and paste this --> pip install django
 * **Step 4:** Make sure your Django is updated with the version 5.1.1. To check this, open Command Prompt and copy paste this --> python -m django --version
 
