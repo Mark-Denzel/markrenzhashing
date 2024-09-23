@@ -59,7 +59,7 @@
 * The Python version is at least --> Python 3.11.2
 * Django version 5.1.1
 
-**Execution**
+**Execution:**
 * To execute the program, first double-click the *run.bat* file included in the *.zip folder.*
 * After the batch file has executed, you will see a URL or HTTP link. Then, use Ctrl + Right Click to open the link. --> [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 * To stop the server just  Ctrl + C
