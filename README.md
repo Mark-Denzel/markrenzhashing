@@ -80,8 +80,13 @@
 
 ## Error Handling
 **Error Codes & Recovery Procedures:**
-+ **Error 1:** When you *run.bat* file and it doesn't response/automatically close or you manually try to open the server using CMD: <img width="300" alt="image" src="https://github.com/user-attachments/assets/5df36cc5-1271-42ad-a888-6c78eb950f3c">
-+ You will encounter this error:![image](https://github.com/user-attachments/assets/d1f98a45-22cc-44d7-87cd-a9e69dd882b4)
++ **Error 1:** When you *run.bat* file and it doesn't response/automatically close or you manually try to open the server using CMD:
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/5df36cc5-1271-42ad-a888-6c78eb950f3c">
+
++ **Error 2:** You encountered this error:
+
+  ![image](https://github.com/user-attachments/assets/d1f98a45-22cc-44d7-87cd-a9e69dd882b4)
 
      * Solution: Just type "pip install django" in CMD. Then try to open the *run.bat* file, if there is a windows security warning, click *more info* and *run annyway*.
  
@@ -95,5 +100,9 @@
 
 ## Maintenance Log
 ### **Date:** 09/23/2024
-   * **Changes:** Modified the input and output text areas to be fixed, preventing them from overlapping the container. To achieve this, we set textarea {resize: none;}
    * **Author:** Clarence Benedict De Leon
+   * **Changes:** Modified the input and output text areas to be fixed, preventing them from overlapping the container. To achieve this, we set textarea {resize: none;}
+
+### **Date:** 09/24/2024
+   * **Author:** Mark Denzel J. Permison
+   * **Changes:** I modified the title, adjusted the button sizes, and labeled the input and output text boxes.
