@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MarkClarence5 Hashing</title>
+    <title>MarkClarenceMD5 Hashing</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,7 +31,7 @@
         textarea {
             width: 90%;
             height: 100px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #444343;
@@ -47,9 +47,12 @@
             background-color: #a3a3f0;
             border: none;
             color: white;
-            padding: 10px;
+            padding: 15px 20px;
+            font-size: 16px;
             border-radius: 5px;
             cursor: pointer;
+            flex: 1;
+            margin: 0 5px;
         }
         button:hover {
             background-color: #8282bd;
@@ -63,11 +66,19 @@
 
 <div class="container">
     <div class="tab">
-        <h1>MarkRenz Hashing</h1>
+        <h1>MarkRenz<i>MD5 Hashing</i></h1>
     </div>
 
-    <textarea id="inputText" placeholder="Text"></textarea>
-    <textarea id="outputText" placeholder="MD5 Hash" readonly></textarea>
+    <div>
+        <label for="inputText">Input Message:</label><br>
+        <textarea id="inputText" placeholder="Enter message here..."></textarea>
+    </div>
+
+    <!-- Output section -->
+    <div>
+        <label for="outputText">Output:</label><br>
+        <textarea id="outputText" placeholder="MD5 Hash will appear here..." readonly></textarea>
+    </div>
 
     <div class="buttons">
         <button id="encryptBtn">Encrypt</button>
@@ -104,7 +115,6 @@
             outputText.value = 'Error: ' + error;
         });
     });
-
 
     resetBtn.addEventListener('click', () => {
         inputText.value = '';
