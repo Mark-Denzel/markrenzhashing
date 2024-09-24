@@ -6,7 +6,7 @@
 
 **Date:** 09/22/2024
 
-**Version:** 1.0
+**Version:** 1.0.1
 
 **Purpose:** Generates a fixed-length, 128-bit *hash* value from the user input message.
 
