@@ -31,7 +31,7 @@
 
 ## Functional Description
 * **Input:** You use the textbox to input a unique word, it does not have a limit on how long the input is. For example you can put in an entire  email in the textbox eg: Thisisanemail@emaildomain.com.
-* **Processing:** The program will go through a mathematical hashing algorithm. It converts the data into a unique hexadecimal hash string. Once it has been outputted into its unique line of string it cannot be processed back into a the original string.
+* **Processing:** The program will go through a mathematical hashing algorithm. It converts the data into a unique hexadecimal hash string. Once it has been outputted into its unique line of string it cannot be processed back into the original string.
 * **Output:** The data is then turned into a string of hexadecimal hash eg: a1d61919bb9a68b1ad6cde6c50524481. It is an example of an output of the process. As you can see it is unreadable to the human eye. This series of hash CANNOT be reverted back into its original message
 
 
@@ -39,16 +39,22 @@
 
 ## Security Considerations
 **Vulnerability Assessment:**
-
-* MD5 is considered weak and susceptible to collision attacks. It should not be used for secure hashing of sensitive data like passwords.
-* MD5 is fast, which makes it easier for attackers to perform brute-force attacks.
++ MD5:
+    * MD5 is considered weak and susceptible to collision attacks. It should not be used for secure hashing of sensitive data like passwords.
+    * MD5 is fast, which makes it easier for attackers to perform brute-force attacks.
++ Program:
+    * We regularly monitor our third-party packages for vulnerabilities using tools like pip-audit, ensuring that no outdated or insecure libraries compromise our system.
 
 **Mitigation Strategies:**
-* Since MD5 is not suitable for hashing sensitive information (e.g., passwords), switch to more secure hashing algorithms like SHA-256 or bcrypt.
-* You may also put a unique salt for each password to ensure that identical passwords do not result in the same hash.
++ MD5:
+    * Since MD5 is not suitable for hashing sensitive information (e.g., passwords), switch to more secure hashing algorithms like SHA-256 or bcrypt.
+    * You may also put a unique salt for each password to ensure that identical passwords do not result in the same hash.
++ Program:
+    * We regularly update Django and its dependencies to the latest stable versions to mitigate known vulnerabilities.
 
 **Testing:**
-
++ MD5:
+    * We are conducting regular tests of our *MD5 hashing* program to ensure its consistency.
 <br>
 
 ## Usage Instructions
@@ -74,7 +80,7 @@
 ## Error Handling
 **Error Codes & Recovery Procedures:**
 + **Error 1:** When you *run.bat* file and it doesn't response/automatically close or you manually try to open the server using CMD: <img width="300" alt="image" src="https://github.com/user-attachments/assets/5df36cc5-1271-42ad-a888-6c78eb950f3c">
-+ You will encounter this error: ![image](https://github.com/user-attachments/assets/d1f98a45-22cc-44d7-87cd-a9e69dd882b4)
++ You will encounter this error:![image](https://github.com/user-attachments/assets/d1f98a45-22cc-44d7-87cd-a9e69dd882b4)
 
      * Solution: Just type "pip install django" in CMD. Then try to open the *run.bat* file, if there is a windows security warning, click *more info* and *run annyway*.
  
