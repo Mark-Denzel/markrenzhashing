@@ -8,7 +8,7 @@
 
 **Version:** 1.0.1
 
-**Purpose:** Generates a fixed-length, 128-bit *hash* value from the user input message.
+**Purpose:** Calculates a fixed-length, 128-bit hash value from a given user input message. This process involves taking the input data, regardless of its size, and transforming it into a unique string of digits and letters that serves as a digital fingerprint.
 
 <br>
 <br>
