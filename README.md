@@ -4,7 +4,7 @@
 
 **Author:** Mark Denzel J. Permison & Clarence Benedict De Leon
 
-**Date:** 09/22/2024
+**Date:** 09/22/2024 - 09/23/2024
 
 **Version:** 1.0.1
 
@@ -16,13 +16,13 @@
 ## System Requirements
 **Hardware(Minimum):**
 
-* **CPU:** Intel PENTIUM or AMD Ryzen 3  
-* **Ram:** At least 2GB  
-* **Storage:** At least 100 MB
+* **CPU:** Single-core or dual-core processor (Intel Pentium or AMD Ryzen 3)
+* **Ram:** 1 Gb 
+* **Storage:** At least 300 MB available.
 
 
 ### Software:
-* **Operating system:** Windows & Linux  
+* **Operating system:** Windows or Linux
 * **Browser:** Google, Microsoft Edge, Firefox, Brave, etc... 
 * **Python Version:** Python 3.11.2
 * **Libraries:** *Django & Hashlib*
@@ -30,7 +30,7 @@
 <br>
 
 ## Functional Description
-* **Input:** You use the textbox to input a unique word, it does not have a limit on how long the input is. For example you can put in an entire  email in the textbox eg: Thisisanemail@emaildomain.com.
+* **Input:** You use the textbox to input a message or unique word, it does not have a limit on how long the input is. For example you can put in an entire  email in the textbox eg: Thisisanemail@emaildomain.com.
 * **Processing:** The program will go through a mathematical hashing algorithm. It converts the data into a unique hexadecimal hash string. Once it has been outputted into its unique line of string it cannot be processed back into the original string.
 * **Output:** The data is then turned into a string of hexadecimal hash eg: a1d61919bb9a68b1ad6cde6c50524481. It is an example of an output of the process. As you can see it is unreadable to the human eye. This series of hash CANNOT be reverted back into its original message
 
@@ -43,13 +43,14 @@
     * MD5 is considered weak and susceptible to collision attacks. It should not be used for secure hashing of sensitive data like passwords.
     * MD5 is fast, which makes it easier for attackers to perform brute-force attacks.
 + Program:
-    * We regularly monitor our third-party packages for vulnerabilities using tools like pip-audit, ensuring that no outdated or insecure libraries compromise our system.
+    * Outdated libraries may contain known vulnerabilities that attackers can exploit, leading to data breaches, unauthorized access, or system compromises.
 
 **Mitigation Strategies:**
 + MD5:
     * Since MD5 is not suitable for hashing sensitive information (e.g., passwords), switch to more secure hashing algorithms like SHA-256 or bcrypt.
     * You may also put a unique salt for each password to ensure that identical passwords do not result in the same hash.
 + Program:
+    * We regularly monitor our third-party packages for vulnerabilities using tools like pip-audit, ensuring that no outdated or insecure libraries compromise our system.
     * We regularly update Django and its dependencies to the latest stable versions to mitigate known vulnerabilities.
 
 **Testing:**
